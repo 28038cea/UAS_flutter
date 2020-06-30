@@ -93,7 +93,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                 child: MaterialButton(
                   onPressed: () {
                     Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => new Orders()));
+                        MaterialPageRoute(builder: (context) => new Orders()));
                   },
                   color: Colors.red,
                   textColor: Colors.white,
@@ -107,10 +107,7 @@ class _ProductDetailsState extends State<ProductDetails> {
             ],
           ),
           Divider(),
-          new ListTile(
-              title: new Text("Product Details"),
-              subtitle: new Text(
-                  "Dapur Papa El merupakan store cake, dessert & drink kekinian yang ada di Singaraja, Dapur Papa El mempunyai dua cabang store, yaitu di Singaraja dan Di Seririt")),
+
           Divider(),
           new Row(
             children: <Widget>[
